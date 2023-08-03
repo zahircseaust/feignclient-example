@@ -1,5 +1,6 @@
 package net.codejava.service;
 
+import net.codejava.exception.ResourceNotFoundException;
 import net.codejava.model.User;
 
 import java.util.List;
@@ -13,7 +14,7 @@ public interface UserService {
 
     User updateUser(User user);
 
-    void deleteuser(Long id);
+    void removeUserById(Long id) throws ResourceNotFoundException;
 
     List<User> searchUserName(String firstName);
 }

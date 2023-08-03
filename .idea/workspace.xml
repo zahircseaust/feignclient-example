@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18cbfc51-8c19-4ac4-8e47-f9ea47e99d5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/exception/ErrorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/dto/UserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/dto/UserNameDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,16 +34,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ProductManagerFilterSearch" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -59,18 +75,27 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductManagerApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.feign.client.ClientApplication" />
@@ -78,13 +103,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ProductManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="ProductManager" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.codejava.ProductManagerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProductManagerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,12 +126,26 @@
       <updated>1690444946063</updated>
       <workItem from="1690444948875" duration="2013000" />
       <workItem from="1690464272339" duration="332000" />
-      <workItem from="1690464753060" duration="129000" />
+      <workItem from="1690464753060" duration="747000" />
+      <workItem from="1690465990282" duration="1477000" />
+      <workItem from="1690569081655" duration="1377000" />
+      <workItem from="1691085697051" duration="5437000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>

@@ -1,11 +1,14 @@
 package net.codejava.service;
 
 import lombok.RequiredArgsConstructor;
+
+import net.codejava.exception.ResourceNotFoundException;
 import net.codejava.model.User;
 import net.codejava.reposity.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @Service
@@ -45,12 +48,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void deleteuser(Long id) {
+    public void removeUserById(Long id) throws ResourceNotFoundException {
+        User user = userRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("user not found for this id :: " + id));
         userRepository.deleteById(id);
     }
 
     @Override
     public List<User> searchUserName(String firstName) {
+
         List<User> user = userRepository.findByFirstName(firstName);
         return user;
     }

@@ -3,7 +3,7 @@ package net.codejava.dto;
 import lombok.Data;
 
 @Data
-public class UserName {
+public class UserNameDto {
     private String firstName;
     private String lastName;
 }

@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
 
@@ -13,6 +15,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 @Table(name = "user_table")
+@SQLDelete(sql = "UPDATE user_table SET is_delete = 1 WHERE id=?")
+@Where(clause = "is_delete = false")
 public class User {
 
     @Id
@@ -29,4 +33,6 @@ public class User {
     private double salary;
     @Column(name = "email")
     private String emailId;
+    @Column(name = "is_delete")
+    private boolean isDeleted = Boolean.FALSE;
 }

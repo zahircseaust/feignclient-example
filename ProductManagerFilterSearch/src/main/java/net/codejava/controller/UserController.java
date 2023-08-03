@@ -2,7 +2,7 @@ package net.codejava.controller;
 
 import lombok.RequiredArgsConstructor;
 import net.codejava.dto.UserDto;
-import net.codejava.dto.UserName;
+import net.codejava.exception.ResourceNotFoundException;
 import net.codejava.model.User;
 import net.codejava.service.UserServiceImpl;
 import org.modelmapper.ModelMapper;
@@ -57,9 +57,9 @@ public class UserController {
         return new ResponseEntity<>(updateUser, HttpStatus.OK);
     }
 
-    @DeleteMapping(value = "/delete-user/{id}")
-    public ResponseEntity<String> deleteUser(@PathVariable("id") Long id) {
-        userService.deleteuser(id);
+    @DeleteMapping(value = "/delete-user")
+    public ResponseEntity<String> deleteUser(@RequestParam Long id) throws ResourceNotFoundException {
+        userService.removeUserById(id);
         return new ResponseEntity<>("delete successfully", HttpStatus.OK);
     }
 
