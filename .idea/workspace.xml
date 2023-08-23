@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18cbfc51-8c19-4ac4-8e47-f9ea47e99d5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/exception/ErrorDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/dto/UserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/dto/UserNameDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagerFilterSearch/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagerFilterSearch/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ProductManagerFilterSearch/src/main/java/net/codejava/service/UserServiceImpl.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
